@@ -129,10 +129,10 @@ export const filterData = [
 //   "Uber Assist",
 // ];
 
-// export const carsAround = [
-//   { latitude: -26.207487, longitude: 28.236226 },
-//   { latitude: -26.202616, longitude: 28.227718 },
-//   { latitude: -26.202424, longitude: 28.236612 },
-//   { latitude: -26.208565, longitude: 28.237191 },
-//   { latitude: -26.203598, longitude: 28.239509 },
-// ];
+export const carsAround = [
+  { latitude: 17.371473, longitude: 78.569504 },
+  { latitude: 17.366732, longitude: 78.581673 },
+  { latitude: 17.362554, longitude: 78.596044 },
+  { latitude: 17.354599, longitude: 78.606995 },
+  { latitude: 17.36896, longitude: 78.603911 },
+];
