@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, Dimensions } from "react-native";
 import React from "react";
-import { colors, parameters } from "./src/global/styles";
+import { colors } from "./src/global/styles";
 import HomeScreen from "./src/screens/HomeScreen";
 
 const App = () => {

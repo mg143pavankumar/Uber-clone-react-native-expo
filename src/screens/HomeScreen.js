@@ -8,13 +8,11 @@ import {
   FlatList,
 } from "react-native";
 import React from "react";
-import { colors, parameters } from "../global/styles";
+import { colors, parameters, SCREEN_WIDTH_HEIGHT } from "../global/styles";
 import { Icon } from "react-native-elements";
 import { StatusBar } from "expo-status-bar";
 import { images } from "../global/images";
 import { filterData } from "../global/data";
-
-const SCREEN_WIDTH = Dimensions.get("window").width;
 
 const HomeScreen = () => {
   return (
@@ -136,7 +134,7 @@ const styles = StyleSheet.create({
   },
   card: {
     alignItems: "center",
-    margin: SCREEN_WIDTH / 22,
+    margin: SCREEN_WIDTH_HEIGHT.width / 22,
   },
 
   view2: { marginBottom: 5, borderRadius: 15, backgroundColor: colors.grey6 },
@@ -196,7 +194,7 @@ const styles = StyleSheet.create({
   map: {
     height: 150,
     marginVertical: 0,
-    width: SCREEN_WIDTH * 0.92,
+    width: SCREEN_WIDTH_HEIGHT.width * 0.92,
   },
 
   text4: {

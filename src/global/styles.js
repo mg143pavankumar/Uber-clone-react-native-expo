@@ -1,4 +1,10 @@
+import { Dimensions } from "react-native";
 import { getStatusBarHeight } from "react-native-status-bar-height";
+
+export const SCREEN_WIDTH_HEIGHT = {
+  width: Dimensions.get("window").width,
+  height: Dimensions.get("window").height,
+};
 
 export const colors = {
   buttons: "#ff8c52",
